@@ -2,7 +2,11 @@
 
 A simple, client-side tool to instantly analyze and visualize the "Daily Snapshot" report from the National Stock Exchange (NSE) of India. No installation, no server, no data uploads—everything happens securely in your web browser.
 
-![Screenshot of the NSE Analyzer tool in action](https://i.imgur.com/rS2jL8T.png)
+## [➡️ Try it Live! ⬅️](https://devworlddivey.github.io/findtop5index/)
+
+![NSE Analyzer Screenshot](image.png)
+
+---
 
 ## What It Does
 
@@ -10,28 +14,37 @@ This tool takes the daily market closing report (`ind_close_all_ddmmyyyy.csv`) f
 
 ### Key Features
 
-*   **Zero Installation:** Just a single HTML file that runs in any modern web browser.
+*   **Zero Installation:** Access the tool directly from the live URL.
 *   **Visual Pie Chart:** Instantly see the top 10 positive market movers and their percentage contribution to the day's total gains.
 *   **Sorted Data Tables:** View the complete market data sorted by both absolute "Points Change" and "Percentage Change".
 *   **Export to CSV:** Download the sorted data tables with a single click for your own records or further analysis.
-*   **100% Private & Secure:** Your data is never uploaded anywhere. All file processing and analysis are done locally on your computer using JavaScript.
+*   **100% Private & Secure:** Your data is never uploaded. All file processing and analysis are done locally in your browser using JavaScript.
 
 ## How to Use
 
-1.  **Download the Tool:**
-    *   Go to the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases) page of this repository.
-    *   Download the `NSE_Analyzer.html` file from the latest release.
+### Method 1: Use the Live Version (Recommended)
+
+1.  **Open the Analyzer:**
+    *   Go to the live site: [**https://devworlddivey.github.io/findtop5index/**](https://devworlddivey.github.io/findtop5index/)
 
 2.  **Download the NSE Report:**
     *   Visit the official NSE India website: [**All Reports Page**](https://www.nseindia.com/all-reports).
     *   Download the **"Daily Snapshot"** report. The file is usually named `ind_close_all_ddmmyyyy.csv`.
 
 3.  **Analyze:**
-    *   Open the `NSE_Analyzer.html` file in your web browser (like Chrome, Firefox, or Edge).
-    *   Click the **"Choose File"** button.
-    *   Select the `ind_close_all...csv` file you just downloaded from the NSE website.
+    *   Go back to the analyzer webpage, click the **"Choose File"** button, and select the `.csv` file you just downloaded.
 
-That's it! The pie chart and data tables will be generated instantly on the page.
+The pie chart and data tables will be generated instantly.
+
+### Method 2: Run Locally (For Offline Use)
+
+1.  **Download the Tool:**
+    *   Go to the [Releases](https://github.com/devworlddivey/findtop5index/releases) page of this repository.
+    *   Download the `NSE_Analyzer.html` file from the latest release.
+
+2.  **Analyze:**
+    *   Open the downloaded `NSE_Analyzer.html` file in your web browser.
+    *   Follow steps 2 and 3 from "Method 1".
 
 ## Technology Stack
 
@@ -51,4 +64,4 @@ Contributions are welcome! If you have ideas for improvements, new features, or 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License.
